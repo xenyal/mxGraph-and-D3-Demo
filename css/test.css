@@ -1,0 +1,12 @@
+#mouseOverElement1, #mouseOverElement2 {
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 99;
+    visibility: hidden;
+    border: 2px solid black;
+    padding-top:5px;
+    padding-right:5px;
+    font-family: 'Lato', sans-serif;
+}

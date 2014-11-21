@@ -1,0 +1,112 @@
+body {
+  padding-top: 28px;
+  background-color: #b5b5b5;
+}
+.node.fixed {
+  fill: #f00;
+}
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 2px;
+}
+
+#licensing {
+  fill: #0099FF;
+}
+
+#resolved {
+  fill: #00CC66;
+}
+
+.link.licensing {
+  stroke: #0099FF;
+}
+
+.link.resolved {
+  stroke: #00CC66;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1600px;
+  height: 520px;
+  box-shadow: 0 0 20px #000;
+  padding:10px;
+  border-radius: 20px;
+  margin:0 auto;
+  background-color:#fff;
+}
+
+.main {
+  background:rgba(255,255,255,0.7);
+  border-radius: 20px;
+  box-shadow: 0 0 8px #000;
+  height: inherit;
+  background-image: url("grid.svg");
+  background-color: white;
+}
+
+.grid {
+  height: inherit;
+  width: 100%;
+  position: absolute;
+}
+
+.graphFloater{
+    background-color: #F2F2F2;
+    border: 1px solid #8B8B8B;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px #B2B2B2;
+    height: 100%;
+    margin: 20px;
+    position: absolute;
+}
+
+circle {
+  fill: #9966FF;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+
+text {
+  font: 13px sans-serif;
+  pointer-events: none;
+  opacity: 1;
+}
+
+svg {
+  height: 100%; 
+  width: 100%; 
+}
+
+rect {
+  opacity: 1;
+  stroke-width:2px;
+}
+
+path {
+  opacity: 1;
+  stroke-width:2px;
+}
+
+#graphContainer {
+  height: 500px;
+}
+
+#initializer {
+  opacity: 1;
+  padding-left: 15px;
+  font-size: 24px;
+  position: absolute;
+}
+
+#title {
+  opacity: 1;
+  left: 38%;
+  top: 10px;
+  font-size: 24px;
+  position: absolute;
+  color: #008AE6;
+}

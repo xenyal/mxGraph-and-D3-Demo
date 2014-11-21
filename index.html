@@ -1,0 +1,38 @@
+
+<!DOCTYPE HTML>
+<head>
+	<title>mxGraph Test for FX Options Trading Flowchart</title>
+
+	<!-- Sets the basepath for the library if not in same directory -->
+	<script type="text/javascript">
+		mxBasePath = '../src';
+	</script>
+
+	<!-- Non-local js libraries -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+	<!-- Loads and initializes the library -->
+	<script type="text/javascript" src="js/mxClient.js"></script>
+	<script type="text/javascript" src="js/mxgraph.js"></script>
+	<script type="text/javascript" src="js/d3.js"></script>
+	<script type="text/javascript" src="js/jquery.svg.js"></script>
+	<script type="text/javascript" src="js/jquery.svgdom.min.js"></script>
+
+
+ 	<link rel="stylesheet" type="text/css" href="css/d3forcelayout.css">
+  	<!--<link rel="stylesheet" type="text/css" href="css/jquery.svg.css">-->
+</head>
+
+<!-- Page passes the container for the graph to the program -->
+<body onload="documentInit(document.getElementById('graphContainer'))">
+    <div class="container">
+    	<div class="main">
+			<div id="graphContainer">
+				<text id="initializer">Graph Interface Initialized</text>
+				<text id="title">FX Options Trading (Current State)</text>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
